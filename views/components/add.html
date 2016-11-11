@@ -7,16 +7,11 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <strong>Basic Form</strong>Personal Information
+                    <strong>Personal Information</strong>
                 </div>
                 <div class="card-block">
                     <form action="" method="post" enctype="multipart/form-data" class="form-horizontal ">
-                        <div class="form-group row">
-                            <label class="col-md-3 form-control-label">Static</label>
-                            <div class="col-md-9">
-                                <p class="form-control-static">Username</p>
-                            </div>
-                        </div>
+                        
                         <div class="form-group row">
                             <label class="col-md-3 form-control-label" for="text-input">Fullname</label>
                             <div class="col-md-9">
@@ -47,12 +42,14 @@
                         <div class="form-group row">
                             <label class="col-md-3 form-control-label" for="select">DOB</label>
                             <div class="col-md-9">
-                                <select id="select" name="select" class="form-control" size="1">
-                                    <option value="0">Please select</option>
-                                    <option value="1">Option #1</option>
-                                    <option value="2">Option #2</option>
-                                    <option value="3">Option #3</option>
-                                </select>
+                                <input type="date" id="password-input" name="password-input" class="form-control" placeholder="Date Of Birth">
+                            </div>
+                        </div>
+                         <div class="form-group row">
+                            <label class="col-md-3 form-control-label" for="select">Executive Possition and Date</label>
+                            <div class="col-md-9">
+                             <input type="text" id="password-input" name="password-input" class="form-control" placeholder="Possition">
+                                <input type="date" id="password-input" name="password-input" class="form-control" placeholder="Date">
                             </div>
                         </div>
                        
@@ -64,27 +61,6 @@
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-header">
-                    <strong>Inline</strong>Form
-                </div>
-                <div class="card-block">
-                    <form action="" method="post" class="form-inline">
-                        <div class="form-group">
-                            <label class="sr-only" for="if-email">Email</label>
-                            <input type="email" id="if-email" name="if-email" class="form-control" placeholder="Enter Email..">
-                        </div>
-                        <div class="form-group">
-                            <label class="sr-only" for="if-password">Password</label>
-                            <input type="password" id="if-password" name="if-password" class="form-control" placeholder="Enter Password..">
-                        </div>
-                    </form>
-                </div>
-                <div class="card-footer">
-                    <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
-                    <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
-                </div>
-            </div>
         </div>
       
     </div>
